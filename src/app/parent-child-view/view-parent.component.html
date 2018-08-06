@@ -1,0 +1,8 @@
+<h3>倒计时 (通过@ViewChild实现)</h3>
+<button (click)="start()">开始</button>
+<button (click)="stop()">结束</button>
+<div class="seconds">{{ seconds() }}</div>
+<div style="border:2px solid green; padding: 4px; margin: 4px">
+  <app-view-child></app-view-child>
+  <!--<app-view-child #childA></app-view-child>-->
+</div>

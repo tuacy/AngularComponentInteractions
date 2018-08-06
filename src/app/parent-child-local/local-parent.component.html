@@ -1,0 +1,7 @@
+<h3>倒计时 (通过本地变量实现)</h3>
+<button (click)="timer.start()">开始</button>
+<button (click)="timer.stop()">结束</button>
+<div class="seconds">{{timer.seconds}}</div>
+<div style="border:2px solid green; padding: 4px; margin: 4px">
+  <app-local-child #timer></app-local-child>
+</div>

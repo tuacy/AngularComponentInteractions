@@ -1,0 +1,15 @@
+<div style="display: flex; width: 100%; height: 100%">
+
+  <ul>
+    <li><a routerLink="/parent-child-data" routerLinkActive="active">数据从父组件传到子组件-@Input</a></li>
+    <li><a routerLink="/child-parent-event" routerLinkActive="active">父组件监听子组件的事件</a></li>
+    <li><a routerLink="/parent-child-local-variable" routerLinkActive="active">父组件与子组件通过本地变量互动</a></li>
+    <li><a routerLink="/parent-child-view" routerLinkActive="active">父组件调用@ViewChild()</a></li>
+    <li><a routerLink="/parent-child-service" routerLinkActive="active">父组件和子组件通过服务来通讯</a></li>
+  </ul>
+
+  <div style="flex: 3; margin-left: 10px;">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
